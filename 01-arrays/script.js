@@ -26,7 +26,7 @@ const firstTeacher = teachers.shift();
 console.log(firstTeacher , teachers)
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
-const newTeacher = teachers.splice(5, 0, 'Vanessa')
+const newTeacher = teachers.push('Vanessa')
 console.log(newTeacher , teachers)
 
 
