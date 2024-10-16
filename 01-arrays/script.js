@@ -14,8 +14,8 @@ const fourthTeacher = teachers[4];
 console.log(fourthTeacher)
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
-const removed = teachers.toSpliced(5, 1, "Patrick");
-console.log(removed)
+const removed = teachers.splice(5, 1, "Patrick");
+console.log(teachers, removed)
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
 const lastTeacher = teachers.pop();
