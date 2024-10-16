@@ -31,7 +31,7 @@ console.log(newTeacher , teachers)
 
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
-const anotherTeacher = teachers.splice(0, 0, 'Sarah')
+const anotherTeacher = teachers.unshift('Sarah')
 console.log(anotherTeacher , teachers)
 
 
